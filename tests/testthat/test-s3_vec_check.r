@@ -6,9 +6,11 @@ test_that("detects correct inheritance", {
   expect_null(s3_vec_check(ord, NULL, "ordered"))
   expect_null(s3_vec_check(date, NULL, "Date"))
 
-  x <- structure(1, class = c("my_factor", "factor"))
+  x <- factor(1L)
+  class(x) <- c("my_factor", class(x))
   expect_null(s3_vec_check(x, NULL, "factor"))
-  x <- structure(1, class = c("my_ordered", "ordered"))
+  x <- ordered(1L)
+  class(x) <- c("my_ordered", class(x))
   expect_null(s3_vec_check(x, NULL, "ordered"))
   x <- structure(1, class = c("my_date", "Date"))
   expect_null(s3_vec_check(x, NULL, "Date"))

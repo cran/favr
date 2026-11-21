@@ -1,3 +1,7 @@
+# favr 2.0.1
+
+Corrected a bug in a test where `structure(x, class = "factor")` was called on a non-integer numeric `x`.
+
 # favr 2.0.0
 
 Refactor of the package to focus on function argument validation through "check" functions that throw an error if validation fails and return `NULL` (or occasionally the input) invisibly if validation succeeds.

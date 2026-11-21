@@ -1,7 +1,7 @@
-79a77d49fef5c617e6841e31f3ce4fa7 *DESCRIPTION
+25deac2f2bf0f60c86ac4b221b84ee07 *DESCRIPTION
 a3dee678e42e179fc4208f6a744df68b *LICENSE
 5abfa7c090bd0b1fcf366daacd790883 *NAMESPACE
-671ba618e47cce530d4c60e1114552ae *NEWS.md
+7d064abe31d7edf9290d59e098ce581a *NEWS.md
 5823fa50a8c78ad3a24af066e5d3598c *R/abortifnot.r
 6ad9e7656da15eaf3f38918254720b77 *R/array_type_checks.r
 8533de76aa5fe1eb718009d5c753bcba *R/check.r
@@ -134,6 +134,6 @@ ac8c26c58dece06faf9611116d4dfb27 *tests/testthat/test-oop_checks.r
 487da64c52486a9a55c53cf2f9cd1203 *tests/testthat/test-paths.r
 22b43e6be3bdaba6f3d5f153df53639e *tests/testthat/test-property_checks.r
 0f43ff712e78ddf3b78e332574d59aec *tests/testthat/test-s3_df_check.r
-b9bb427f294e9b7586b3077f10628b6a *tests/testthat/test-s3_vec_check.r
+2c5aa9bb684f715e99bca75cd5ccefa8 *tests/testthat/test-s3_vec_check.r
 6835eb74e1fe47ef63100757cb6eb02a *tests/testthat/test-schema.r
 d2edc6fdf47c2515c77f701a1eb9149c *tests/testthat/test-walk_check.r
